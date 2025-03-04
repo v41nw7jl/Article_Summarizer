@@ -1,17 +1,18 @@
 .
 ├── README.md
+├── output.txt
 ├── client
 │   ├── package-lock.json
 │   ├── package.json
+│   ├── public
+│   │   └── index.html
 │   └── src
 │       ├── App.js
-│       ├── Summarizer.txt
 │       ├── components
 │       │   ├── History.js
 │       │   └── Summarizer.js
 │       ├── index.js
 │       └── styles.css
-├── output.txt
 └── server
     ├── config
     │   └── db.js
@@ -22,7 +23,8 @@
     ├── routes
     │   └── summarizer.js
     ├── server.js
+    ├── .env
     └── services
         └── googleAI.js
 
-8 directories, 17 files
+9 directories, 18 files
