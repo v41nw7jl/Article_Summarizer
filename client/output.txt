@@ -1,0 +1,15 @@
+.
+├── output.txt
+├── package-lock.json
+├── package.json
+├── public
+│   └── index.html
+└── src
+    ├── App.js
+    ├── components
+    │   ├── History.js
+    │   └── Summarizer.js
+    ├── index.js
+    └── styles.css
+
+3 directories, 9 files
