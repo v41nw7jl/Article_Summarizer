@@ -17,13 +17,12 @@
     │   └── db.js
     ├── models
     │   └── Summary.js
-    ├── node_modules
-    ├── routes
-    │   └── summarizer.js
-    ├── services
-        └── googleAI.js
     ├── package-lock.json
     ├── package.json
-    └── server.js
+    ├── routes
+    │   └── summarizer.js
+    ├── server.js
+    └── services
+        └── googleAI.js
 
 8 directories, 17 files
