@@ -1,9 +1,9 @@
 # Article_Summarizer
 
-- ** Step 1: README.md & File Structure **
-- ** Step 2: Required Dependencies & Installation **
-- ** Step 3: Code for Files **
-- ** Step 4: Steps to Start the Project on Codespace **
+- **Step 1: README.md & File Structure**
+- **Step 2: Required Dependencies & Installation**
+- **Step 3: Code for Files**
+- **Step 4: Steps to Start the Project on Codespace**
 
 # Blog/Article Summarizer
 
