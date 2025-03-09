@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "winston": "^3.17.0"
+  },
+  "scripts": {
+    "dev": "cd server && npm run dev",
+    "logs": "cd server && npm run logs",
+    "start": "cd server && npm run start"
+  }
+}

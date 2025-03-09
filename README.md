@@ -3,7 +3,8 @@
 - **Step 1: README.md & File Structure**
 - **Step 2: Required Dependencies & Installation**
 - **Step 3: Code for Files**
-- **Step 4: Steps to Start the Project on Codespace**
+- **Step 4: Setup DB - MongoDB**
+- **Step 5: Steps to Start the Project on Codespace**
 
 # Blog/Article Summarizer
 
@@ -56,4 +57,32 @@ blog-summarizer/
 - React
 - Google AI Studio API
 
-## Dependencies
+## MongoDB Setup
+
+1. **Start MongoDB**:
+```bash
+sudo mongod --auth --dbpath /data/db
+```
+
+2. **Connect to MongoDB**:
+```bash
+mongosh
+```
+
+3. **Create Database and User**:
+```javascript
+use article_summarizer_db
+db.createUser({
+  user: "admin",
+  pwd: "password",
+  roles: ["readWrite", "dbAdmin"]
+})
+```
+
+4. **Verify Connection**:
+```bash
+mongosh mongodb://admin:password@localhost:27017/article_summarizer_db
+
+5. **Connect with the admin user:**:
+```bash
+mongosh -u admin -p your_password --authenticationDatabase admin

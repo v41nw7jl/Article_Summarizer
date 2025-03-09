@@ -1,18 +1,21 @@
 const mongoose = require('mongoose');
 
 const summarySchema = new mongoose.Schema({
-  text: {
+  url: {
     type: String,
     required: true,
+    trim: true
   },
   summary: {
     type: String,
-    required: true,
+    required: true
   },
   createdAt: {
     type: Date,
-    default: Date.now,
-  },
+    default: Date.now
+  }
+}, {
+  collection: 'summaries'
 });
 
 module.exports = mongoose.model('Summary', summarySchema);
